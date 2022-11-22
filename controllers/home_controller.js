@@ -1,5 +1,7 @@
 module.exports.home = function(req, res){
-    return res.end('<h1>Express Home controller for ignou</h1>');
+    return res.render('Home', {
+        title : 'Home'
+    });
 };
 
 

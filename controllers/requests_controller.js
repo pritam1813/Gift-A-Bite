@@ -1,5 +1,7 @@
 module.exports.displayrequests = function(req, res){
-    return res.end('<h1>Display Requests Page</h1>');
+    return res.render('Requests', {
+        title : 'Requests'
+    });
 };
 
 module.exports.manageRequests = function(req, res){
