@@ -5,7 +5,9 @@ const port = 7000;
 //Importing routes index.js to access different routes
 app.use('/', require('./routes/index')); 
 
-
+// Using Ejs as view engine
+app.set('view engine', 'ejs');
+app.set('views', './views');
 
 
 

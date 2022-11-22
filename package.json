@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pritam1813/Gift-A-Bite#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "nodemon": "^2.0.20"
   }
 }
