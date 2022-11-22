@@ -1,0 +1,23 @@
+{
+  "name": "gift-a-bite",
+  "version": "1.0.0",
+  "description": "A food waste management and donation app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pritam1813/Gift-A-Bite.git"
+  },
+  "author": "Pritam Dhara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pritam1813/Gift-A-Bite/issues"
+  },
+  "homepage": "https://github.com/pritam1813/Gift-A-Bite#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
